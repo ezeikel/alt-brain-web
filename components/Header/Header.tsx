@@ -45,7 +45,7 @@ const Header = ({ className }: HeaderProps) => {
       return <Button onClick={() => signOut()}>Sign out</Button>;
     }
 
-    return <Button onClick={() => signIn('github')}>Sign in</Button>;
+    return <Button onClick={() => signIn('google')}>Sign in</Button>;
   };
   return (
     <header

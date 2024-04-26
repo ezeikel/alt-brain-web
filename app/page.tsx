@@ -4,8 +4,7 @@ import PageWrap from '@/components/PageWrap/PageWrap';
 const DashboardPage = () => {
   return (
     <PageWrap>
-      <div>Dashboard</div>
-      <Dashboard />
+      <h1>Please sign in</h1>
     </PageWrap>
   );
 };
